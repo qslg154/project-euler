@@ -23,7 +23,7 @@ def bingen(n):
         binary = adding(binary, True if i == n-1 else False)
     return binary
 
-def palindrome(n): #print base 2 pali up to n
+def palindrome(n): #generate base 2 pali up to n
     pali = ['1']
     even = 1
     odd = 1
